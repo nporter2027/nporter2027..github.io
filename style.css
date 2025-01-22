@@ -1,0 +1,60 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0; /* Light grey background */
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add slight shadow for effect */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Main Content Area */
+#main-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 300px;
+    text-align: center;
+    color: #333; /* Default text color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow for content */
+}
+
+/* Styling for Error Message */
+#main-content p {
+    color: #555; /* Default text color */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Add shadow on top of footer */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Error Message Styling */
+#main-content p[style='color: red;'] {
+    color: red;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
